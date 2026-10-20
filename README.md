@@ -1,5 +1,28 @@
 # LMS — public portfolio showcase
 
+## Technical documentation (current audit)
+
+**Audit date:** 20 October 2026 · **Release classification:** not a verified complete production application.
+
+**Current GitHub state:** Documentation only; the independent learning UI/auth foundation is not committed or deployed.
+
+**Source/stack evidence:** Reviewed original is a Python/Django course/assessment scaffold, not a complete production LMS or code hosted by this Pages documentation project.
+
+**Cloudflare state:** The Pages project hosts an earlier documentation deployment. A site-specific Turnstile widget and a shared `AUTH_DB` D1 binding have been provisioned, but a working application deployment and admin sign-in have not been verified. Secret values must never be committed to this public repository.
+
+**Engineering documentation:**
+
+- **[Complete architecture, folder tree, languages, API contracts and backend connections](docs/TECHNICAL_REFERENCE.md)**
+- **[Features, actual implementation status and acceptance requirements](docs/FEATURE_AND_RELEASE_MATRIX.md)**
+- **[Authentication, Turnstile, security controls, deployment and operations runbook](docs/SECURITY_AND_OPERATIONS.md)**
+- [Source verification and NDA boundaries](docs/SOURCE_VERIFICATION.md)
+- [Existing platform/device support notes](docs/DEVICE_PREVIEW.md)
+
+All projects use the portfolio credit **[Developed and Designed by Jelvan®](https://portfolio.jelvan.pro)** for independently authored public work. This does not transfer ownership of third-party/client deliverables.
+
+---
+
+
 **Learning/course assessment scaffold**  
 **Curated by Jelvan R. · Public documentation, not the original source repository.**
 
